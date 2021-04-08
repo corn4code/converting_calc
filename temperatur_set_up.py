@@ -1,9 +1,21 @@
-def Kalvin_to_Celsius(temperatur):
+def Celsius_to_Kelvin(temperatur):
+    global result
+    result = temperatur + 273
+    return result
+
+
+def Celsius_to_Fahrenheit(temperatur):
+    global result
+    result = (temperatur * 1.8) + 32
+    return result
+
+
+def Kelvin_to_Celsius(temperatur):
     global result
     result = temperatur - 273
     return result
 
-def Celsius_to_Kelvin(temperatur):
+def Kelvin_to_Fahrenheit(temperatur):
     global result
-    result = temperatur + 273
+    result = ((temperatur - 273) * 1.8) + 32
     return result

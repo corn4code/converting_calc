@@ -1,16 +1,29 @@
 import temperatur_set_up
 
-choice = int(input("Choose your converter (enter assigned number):"
-                   "1 Celsius to Kelvin, "
-                   "2 Kelvin to Celsius"))
+print("Overview: ")
+print("Temperature: ")
+print("    t1 Celsius to Kelvin")
+print("    t2 Celsius to Fahrenheit")
+print("    t3 Kelvin to Celsius")
+print("    t4 Kelvin to Fahrenheit")
 
-if choice == 1:
+choice = input("Choose your converter (enter abbrevation assigned in overview:")
+
+if choice == "t1":
     teperatur = float(input("Enter temperature in Celsius: "))
     print(temperatur_set_up.Celsius_to_Kelvin(teperatur))
 
-if choice == 2:
+if choice == "t2":
+    teperatur = float(input("Enter temperature in Celsius"))
+    print(temperatur_set_up.Celsius_to_Fahrenheit(teperatur))
+
+if choice == "t3":
     temperatur = float(input("Enter temperature in Kelvin: "))
-    print(temperatur_set_up.Kalvin_to_Celsius(temperatur))
+    print(temperatur_set_up.Kelvin_to_Celsius(temperatur))
+
+if choice == "t4":
+    temperatur = float(input("Enter temperature in Kelvin: "))
+    print(temperatur_set_up.Kelvin_to_Fahrenheit(temperatur))
 
 else:
     print("invalid input")
