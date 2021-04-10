@@ -21,7 +21,7 @@ def Kelvin_to_Fahrenheit(temperatur):
     return result
 
 
-def Fahrenheit_to_Celvin(temperatur):
+def Fahrenheit_to_Celius(temperatur):
     global result
     result = ((temperatur - 32) / 1.8)
     return result
