@@ -33,27 +33,27 @@ while True:
         print("  t5 Fahrenheit to Celsius")
         print("  t6 Fahrenheit to Kelvin")
 
-    elif input == "t1":
+    elif input == "use t1":
         teperatur = float(input("Enter temperature in Celsius: "))
         print(temperatur_set_up.Celsius_to_Kelvin(teperatur))
 
-    elif input == "t2":
+    elif input == "use t2":
         teperatur = float(input("Enter temperature in Celsius"))
         print(temperatur_set_up.Celsius_to_Fahrenheit(teperatur))
 
-    elif input == "t3":
+    elif input == "use t3":
         temperatur = float(input("Enter temperature in Kelvin: "))
         print(temperatur_set_up.Kelvin_to_Celsius(temperatur))
 
-    elif input == "t4":
+    elif input == "use t4":
         temperatur = float(input("Enter temperature in Kelvin: "))
         print(temperatur_set_up.Kelvin_to_Fahrenheit(temperatur))
 
-    elif input == "t5":
+    elif input == "use t5":
         temperatur = float(input("Enter temperature in Fahrenheit: "))
         print(temperatur_set_up.Fahrenheit_to_Celvin(temperatur))
 
-    elif input == "t6":
+    elif input == "use t6":
         temperatur = float(input("Enter temperature in Fahrenheit: "))
         print(temperatur_set_up.Fahrenheit_to_Kelvin(temperatur))
 
@@ -62,3 +62,6 @@ while True:
 
     else:
         print("invalid input")
+
+    if Exception:
+        continue
