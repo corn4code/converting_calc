@@ -148,5 +148,5 @@ while True:
     elif user_input == "exit":
         exit()
 
-    # else:
-    #     print("invalid input")
+    else:
+        print("invalid input")
